@@ -12,7 +12,7 @@ Deep Neural Networks (DNNs) have been applied in many domains, such as autonomou
 * Keras 2.1.6
 * geatpy 2.6.0
 
-## Main experimental codes
+## Main Experimental Codes
 
 ```model_train``` : This folder contains the code related to model training.  The model training code of this work refers to [MCP](https://github.com/actionabletest/MCP). Please refer to their work if you need further information.
 
