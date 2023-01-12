@@ -20,7 +20,7 @@ Deep Neural Networks (DNNs) have been applied in many domains, such as autonomou
 
 ```run.py``` : This file guides the execution of NSGA-II.
 
-```EA.py``` : This file describes the basic configuration of NSGA-II.
+```EA.py``` : This file describes the basic configuration and the of NSGA-II.
 
 ```objectives.py``` : This file defines two objectives in NSGA-II.
 
