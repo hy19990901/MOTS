@@ -32,6 +32,8 @@ To evaluate the performance of MODS, we selected the following four approaches f
 
 * MCP : [Shen et al.](https://github.com/actionabletest/MCP) proposed MCP (Multiple-Boundary Clustering and Prioritization), which is a technique to cluster the samples into the boundary areas of multiple boundaries for DL models and specify the priority to select samples evenly from all boundary areas, to make sure enough useful samples for each boundary reconstruction. The results of the experiments demonstrate that MCP is very effective in retraining DL model.
 
+* DeepGini : [Feng et al.](https://github.com/853108389/deepgini) proposed DeepGini that prioritizes the test data and selects the most informative data that are more likely to be classified incorrectly by the DNN model. Its authors have also demonstrated that DeepGini is useful to guide model retraining.
+
 * LSA/DSA : [Kim et al.](https://github.com/coinse/sadl) proposed a test adequacy criterion SADL, which includes LSA (Likelihood-based Surprise Adequacy) and DSA (Distance-based Surprise Adequacy). And SA can estimate the difference between a single test sample and the training set. The experimental results show that SA can guide selection of inputs for more effective retraining of DL systems. Therefore, we introduce LSA/DSA as the baseline approach.
 
 * SRS : To evaluate the effect of randomly selected test inputs on model retraining, the Simple Random Sampling (SRS) is naturally taken as a baseline approach.  
